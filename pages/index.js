@@ -22,7 +22,6 @@ export default function Home({ leagueName, managersData, monthMapping, currentMo
       <header className="header">
         <div className="header-inner">
           <div className="league-title">{leagueName}</div>
-          <div className="status-badge"><span className="dot"></span> Live</div>
         </div>
         <div className="sub-header">Last update: {lastUpdated}</div>
       </header>
